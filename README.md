@@ -14,6 +14,7 @@
 ### 원본 데이터 출처  
   
 [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/data)  
+![image](https://github.com/SungUk/futuresales/assets/5809062/7ac7219c-6068-44bd-b61b-0d625f4089e1)  
   
   
 ### 설치 및 실행  
