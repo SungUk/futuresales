@@ -13,8 +13,7 @@
   
 ### 원본 데이터 출처  
   
-[Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview/evaluation
-)  
+[Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/data)  
   
   
 ### 설치 및 실행  
