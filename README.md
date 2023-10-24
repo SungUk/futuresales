@@ -20,16 +20,26 @@
 ### 설치 및 실행  
   
 파이썬을 실행시키기 이전에 MySQL을 이용하여 현재 컴퓨터에 predictions라는 데이터베이스를 만들어줍니다.  
-아니면 다른 장소와 방식으![image](https://github.com/SungUk/futuresales/assets/5809062/d9086920-ff16-4a93-9f42-5b0975debcb9)
-로 데이터베이스를 만든 뒤에 파이썬 코드를 알맞게 편집하시면 됩니다.  
+아니면 다른 장소와 방식으로 데이터베이스를 만든 뒤에 파이썬 코드를 알맞게 편집하시면 됩니다.  
 공유를 원하시면 외부 계정을 만드신 뒤에 적절히 설정해주시면 됩니다.  
 
 main.py 파일의 아래의 코드에서 secretnumber라고 되어있는 부분에 root 비번을 입력합니다.  
 engine = create_engine("mysql+mysqlconnector://root:secretnumber@localhost:3306/predictions")  
   
 main.py를 실행하시면 predictions 데이터베이스에 predictions 테이블이 생성되어 원하는 자료가 저장된 것을 확인 가능합니다.  
+  
+  
+### 데이터 전처리와 EDA  
+
+가격이 0이거나 다른 여러가지 이유로 비정상적인 자료는 파이썬 코드를 통해서 제거하고,  
+자료의 형식이 맞지 않는 경우는 입력 파일 자체를 수정하였습니다.  
+매월 판매량이 기록된 충분한 자료가 있는 경우만 선별합니다.  
+가게와 월에 따른 판매량 변화를 조사하고 이를 반영하여 파생 변수 생성 등 적합한 조취를 취해주도록 코드를 짰습니다.  
+![image](https://github.com/SungUk/futuresales/assets/5809062/1bb5e0ed-2e8d-4fc0-9ba5-df61daab4b79)
 
   
+
+
 ### MySQL에 데이터베이스로 저장된 이미지  
 
 아래의 그림은 파이썬 코드를 실행하여 예측된 판매량이 자동으로 테이블을 만들어 저장이된 이미지입니다.  
