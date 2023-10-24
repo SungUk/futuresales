@@ -27,7 +27,8 @@ main.py를 실행하시면 predictions 데이터베이스에 predictions 테이�
 
 아래의 그림은 파이썬 코드를 실행하여 예측된 판매량이 자동으로 테이블을 만들어 저장이된 이미지입니다.  
   
-![image](https://github.com/SungUk/futuresales/assets/5809062/1ee66337-c7f7-4e51-8569-44dade946617)
+![image](https://github.com/SungUk/futuresales/assets/5809062/0ffc4e52-d682-47ae-9611-39c600c48f5d)
+
 
     
 
