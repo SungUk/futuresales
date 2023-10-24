@@ -21,9 +21,14 @@ main.py 파일의 아래의 코드에서 secretnumber라고 되어있는 부분�
 engine = create_engine("mysql+mysqlconnector://root:secretnumber@localhost:3306/predictions")  
   
 main.py를 실행하시면 predictions 데이터베이스에 predictions 테이블이 생성되어 원하는 자료가 저장된 것을 확인 가능합니다.  
-  
-  
 
+  
+### MySQL에 데이터베이스로 저장된 이미지  
 
+아래의 그림은 파이썬 코드를 실행하여 예측된 판매량이 자동으로 테이블을 만들어 저장이된 이미지입니다.  
+  
+![image](https://github.com/SungUk/futuresales/assets/5809062/1ee66337-c7f7-4e51-8569-44dade946617)
+
+    
 
   
