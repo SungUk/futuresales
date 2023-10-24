@@ -33,9 +33,16 @@ main.py를 실행하시면 predictions 데이터베이스에 predictions 테이�
 
 가격이 0이거나 다른 여러가지 이유로 비정상적인 자료는 파이썬 코드를 통해서 제거하고,  
 자료의 형식이 맞지 않는 경우는 입력 파일 자체를 수정하였습니다.  
-매월 판매량이 기록된 충분한 자료가 있는 경우만 선별합니다.  
+매월 판매량이 기록된 충분한 자료가 있는 가게의 상품만 선별합니다.  
 가게와 월에 따른 판매량 변화를 조사하고 이를 반영하여 파생 변수 생성 등 적합한 조취를 취해주도록 코드를 짰습니다.  
 ![image](https://github.com/SungUk/futuresales/assets/5809062/1bb5e0ed-2e8d-4fc0-9ba5-df61daab4b79)
+
+  
+### 예측에 사용된 모델과 선정 기준  
+
+CatboostRegressor, XGBost, RandomForestRegressor, LinearRegression, KNeighborRegressor, ARIMA  
+알고리즘을 이용한 모델들을 원본 데이터를 가져온 대회의 평가 기준이 RMSE로 비교하여  
+가장 적은 RMSE(~0.05)를 보였던 CatboostRegressor를 이용하여 판매량을 예측하였습니다.  
 
   
 
