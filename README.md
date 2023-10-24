@@ -45,6 +45,12 @@ CatboostRegressor, XGBost, RandomForestRegressor, LinearRegression, KNeighborReg
 가장 적은 RMSE(~0.05)를 보였던 CatboostRegressor를 이용하여 판매량을 예측하였습니다.  
 
   
+### 초매개변수 최적화  
+
+iterations=10000, depth=10, learning_rate=0.2, loss_function='RMSE', random_seed=42, l2_leaf_reg=0.2  
+로 데이터가 크기 때문에 iterations를 크게 잡아 최적화한 것이 성능을 향상시키는데 도움이 되었습니다.  
+
+
 ### 예측에 사용된 변수들의 중요도  
 
 ![image](https://github.com/SungUk/futuresales/assets/5809062/63767c4f-3adb-498e-9e6d-26defcca9938)  
