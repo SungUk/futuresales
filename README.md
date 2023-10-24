@@ -41,7 +41,7 @@ main.py를 실행하시면 predictions 데이터베이스에 predictions 테이�
 ### 예측에 사용된 모델과 선정 기준  
 
 CatboostRegressor, XGBost, RandomForestRegressor, LinearRegression, KNeighborRegressor, ARIMA  
-알고리즘을 이용한 모델들을 원본 데이터를 가져온 대회의 평가 기준이 RMSE로 비교하여  
+알고리즘을 이용한 모델들을 원본 데이터를 가져온 대회의 평가 기준인 RMSE로 비교하여  
 가장 적은 RMSE(~0.05)를 보였던 CatboostRegressor를 이용하여 판매량을 예측하였습니다.  
 
   
