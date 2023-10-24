@@ -17,7 +17,7 @@
 아니면 다른 장소와 방식으로 데이터베이스를 만든 뒤에 파이썬 코드를 알맞게 편집하시면 됩니다.  
 공유를 원하시면 외부 계정을 만드신 뒤에 적절히 설정해주시면 됩니다.  
 
-아래의 코드에서 secretnumber라고 되어있는 부분에 root 비번을 입력합니다.  
+main.py 파일의 아래의 코드에서 secretnumber라고 되어있는 부분에 root 비번을 입력합니다.  
 engine = create_engine("mysql+mysqlconnector://root:secretnumber@localhost:3306/predictions")  
   
 main.py를 실행하시면 predictions 데이터베이스에 predictions 테이블이 생성되어 원하는 자료가 저장된 것을 확인 가능합니다.  
