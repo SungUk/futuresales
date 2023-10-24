@@ -49,6 +49,7 @@ CatboostRegressor, XGBost, RandomForestRegressor, LinearRegression, KNeighborReg
 
 ![image](https://github.com/SungUk/futuresales/assets/5809062/63767c4f-3adb-498e-9e6d-26defcca9938)  
 거래당 판매 개수, 월별 판매량 등이 중요한 요소로 보입니다.  
+특히 연말에 판매량이 늘어나거나 판매되는 상품의 종류가 달라지는 경향이 보여 월이 판매량 예측에 중요한 요소가 됩니다.  
 
 
 ### MySQL에 데이터베이스로 저장된 이미지  
