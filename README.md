@@ -43,6 +43,8 @@ main.py를 실행하시면 predictions 데이터베이스에 predictions 테이�
 CatboostRegressor, XGBost, RandomForestRegressor, LinearRegression, KNeighborRegressor, ARIMA  
 알고리즘을 이용한 모델들을 원본 데이터를 가져온 대회의 평가 기준인 RMSE로 비교하여  
 가장 적은 RMSE(~0.05)를 보였던 CatboostRegressor를 이용하여 판매량을 예측하였습니다.  
+이렇게 낮은 RMSE가 가능했던 이유중 하나는 실제 판매량에 영향을 미치는 요소가 무엇일지를 고민하고,  
+데이터 EDA를 통해 이러한 요소들을 꼼꼼하게 파악하여 모델 구축에 반영했기 때문인 것으로 보입니다.  
 
   
 ### 초매개변수 최적화  
